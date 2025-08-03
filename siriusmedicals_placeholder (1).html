@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SiriusMedicals | Website Under Development</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --text: #0d1117;
+      --accent: #036672;
+      --muted: #6b7280;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .card {
+      max-width: 600px;
+      width: 100%;
+      padding: 2rem;
+      border-radius: 1.5rem;
+      background: rgba(255, 255, 255, 0.95);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+      animation: fadeIn 1s ease-in;
+    }
+
+    .logo {
+      width: 200px;
+      margin: 0 auto 1.25rem;
+      filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+    }
+
+    .notice {
+      font-weight: 600;
+      font-size: 1.1rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1rem;
+      color: var(--text);
+      line-height: 1.6;
+      margin-bottom: 1.2rem;
+    }
+
+    .email {
+      font-weight: 600;
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .footer {
+      font-style: italic;
+      color: var(--muted);
+      margin-top: 2rem;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="logo.png" alt="SiriusMedicals Logo" class="logo" style="margin-bottom: 0px"/>
+
+    <div class="notice">🚧 Website Under Development</div>
+
+    <p>
+      Our official website is currently under construction. We deliver better health and smarter solutions by specializing in the import, export, and distribution of medical devices, supplements, and pharmaceutical products.
+    </p>
+
+    <p>
+      For all inquiries, please contact us at:<br />
+      📧 <a href="mailto:info@siriusmedicals.com" class="email">info@siriusmedicals.com</a>
+    </p>
+
+    <p>Thank you for your patience as we prepare to launch our online platform.</p>
+
+    <div class="footer">Quality Devices. Reliable Medicines.</div>
+  </div>
+</body>
+</html>
